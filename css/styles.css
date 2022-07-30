@@ -1,0 +1,158 @@
+body {
+  background-color: #DDF6F1;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  left: 15%;
+  top: 20px;
+  margin-left: 500px;
+}
+
+nav, a {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+  color: #1D7A68;
+}
+
+button{
+  background-color: transparent;
+  border: 2px solid;
+  border-color: #487068;
+  color: #487068;
+  width: 110px;
+  height: 40px;
+  float:right;
+  margin-top: 35px;
+  margin-right: 200px;
+}
+
+button:hover{
+  background-color: green;
+  border: 2px solid;
+  border-color: #487068;
+  color: white;
+  width: 110px;
+  height: 40px;
+  float:right;
+  margin-top: 40px;
+  margin-right: 200px;
+}
+
+h1{
+  font-size: 70px;
+  line-height: normal;
+  margin: 0 auto;
+  width: 45%;
+  text-align: center;
+}
+
+h3{
+  font-weight: lighter;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 150px auto 20px auto;
+  width: 20%;
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
+
+.header-logo {
+  height: 5%;
+  width: 5%;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.middle-container{
+  margin: 120px auto 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+.middle-description{
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px auto 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+.textfield{
+  height: 45px;
+  width: 200px;
+  border-style: none;
+  padding-left: 10px;
+}
+input[type=button]{
+  height: 45px;
+  width: 200px;
+  background-color: #F3592C;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+}
+input[type=button]:hover{
+  height: 45px;
+  width: 200px;
+  background-color: #F3932C;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+form{
+  margin: 20px auto;
+}
+.mid-paragraph{
+  text-align: center;
+  color: #9E9383;
+}
+
+.footer{
+  width: 90%;
+  margin: 100px auto 0 auto;
+}
+.boxes{
+  display: inline-block;
+  margin: 0 15px ;
+
+}
+
+.boxes img{
+  height: 40px;
+  float:left;
+  margin: 20px 10px 60px 60px;
+}
+
+.boxes h2{
+  position: relative;
+  left: 9px;
+  clear: none;
+}
+
+.boxes p{
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  margin: 10px auto 10px auto;
+  width: 70%;
+}
